@@ -210,19 +210,19 @@ const PayrollForm = (props) => {
                           <label className="label text" htmlFor="profilePic">Profile image</label>
                           <div className="profile-radio-button">
                               <label>
-                                  <input type="radio" name="profileUrl" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -1.png'} value="../../Assets/profile-images/Ellipse -1.png" onChange={changeValue} />
+                                  <input type="radio" name="profilePic" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -1.png'} value="../../Assets/profile-images/Ellipse -1.png" onChange={changeValue} />
                                   <img className="profile" src={profile1} alt="profile" />
                               </label>
                               <label>
-                                  <input type="radio" name="profileUrl" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -2.png'} value="../../Assets/profile-images/Ellipse -2.png" onChange={changeValue} />
+                                  <input type="radio" name="profilePic" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -2.png'} value="../../Assets/profile-images/Ellipse -2.png" onChange={changeValue} />
                                   <img className="profile" src={profile2} alt="profile" />
                               </label>
                               <label>
-                                  <input type="radio" name="profileUrl" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -3.png'} value="../../Assets/profile-images/Ellipse -3.png" onChange={changeValue} />
+                                  <input type="radio" name="profilePic" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -3.png'} value="../../Assets/profile-images/Ellipse -3.png" onChange={changeValue} />
                                   <img className="profile" src={profile3} alt="profile" />
                               </label>
                               <label>
-                                  <input type="radio" name="profileUrl" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -4.png'} value="../../Assets/profile-images/Ellipse -4.png" onChange={changeValue} />
+                                  <input type="radio" name="profilePic" checked={formValue.profilePic === '../../Assets/profile-images/Ellipse -4.png'} value="../../Assets/profile-images/Ellipse -4.png" onChange={changeValue} />
                                   <img className="profile" src={profile4} alt="profile" />
                               </label>
 
