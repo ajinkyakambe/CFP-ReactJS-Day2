@@ -75,10 +75,9 @@ const PayrollForm = (props) => {
       const getDataById = (id) => {
         EmployeeService
           .getEmployeeById(id)
-          .then((data) => {
-            
-            let obj = data.data.data;
-            setData(obj);
+          .then((response) => {
+            let receivedDataObject = response.data.data;
+            setData(receivedDataObject);
           })
           .catch((err) => {
             alert("err is ", err);
